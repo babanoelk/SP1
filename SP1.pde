@@ -1,17 +1,16 @@
 //SP1 Assignment
-
-
 /* I want to make a game with bouncing balls. For every key that is pressed, a new ball will spawn.
  These balls will be bouncing around the window without leaving the screen. When hitting the edges it will change color */
 
-//Global variables.
+//Declaring and initializing global variables.
 int balls              = 200; //Write here how many balls can be spawn
 int counterPressed     = 0; //Counts how many times keys of the keyboard have been pressed.
 
-//Declaring an global array variable with the name b1. Then I initiliaze it the value (from the global variable balls).
-
+//Declaring an global array variable with the name b1. Then I initiliaze it with the global variable balls.
 Ball[] b1 = new Ball[balls]; //Creates balls from the global balls variable.
 
+
+//---------
 void keyPressed() { //Function to add a ball when key pressed.
   counterPressed = counterPressed + 1; //Increments to the global variable every time a key has been pressed.
 }
