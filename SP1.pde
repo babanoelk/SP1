@@ -1,4 +1,4 @@
-//SP1 Assignment
+//SP1 Assignment - Written by Ahmad
 /* I want to make a game with bouncing balls. For every key that is pressed, a new ball will spawn.
  These balls will be bouncing around the window without leaving the screen. When hitting the edges it will change color */
 
